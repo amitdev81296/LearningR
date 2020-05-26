@@ -24,3 +24,5 @@ subData
 
 subData <- subset(captaincy, lost<14, select=c("names"))
 subData
+
+captaincy[c(1, 2, 5), c(1, 3, 4)]
