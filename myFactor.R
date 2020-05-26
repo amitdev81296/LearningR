@@ -1,0 +1,13 @@
+rm(list = ls())
+captaincy = read.csv("CaptaincyData.csv")
+View(captaincy)
+str(captaincy)
+print(captaincy$names)
+captaincy$names <- as.character(captaincy$names)
+str(captaincy)
+
+captaincy$formats <- factor(captaincy$formats)
+str(captaincy)
+levels(captaincy$formats)
+levels(captaincy$formats) <- c("One", "Two", "Three")
+print(captaincy$formats)

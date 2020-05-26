@@ -92,3 +92,4 @@ vectorC = c(17, 18, 19, 20)
 dfAB = data.frame(vectorA, vectorB)
 dfAB
 dfABC = cbind(dfAB, vectorC)
+dfABC
