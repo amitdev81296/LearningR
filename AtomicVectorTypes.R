@@ -29,3 +29,8 @@ class(testData)
 
 testData <- seq(from=1, to=10, by=0.5)
 paste("The length of testData is", length(testData))
+
+vector("logical", length = 5)
+vector("integer", length = 5)
+vector("numeric", length = 5)
+vector("character", length = 5)
